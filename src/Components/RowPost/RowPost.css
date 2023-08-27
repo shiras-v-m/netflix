@@ -1,0 +1,49 @@
+.posterImage{
+    width: 200px;
+    margin-right: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.heading{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.posterImage:hover,.isSmallPoster:hover{
+    scale: 1.15;
+}
+.rowPosts{
+    width: 100%;
+     padding-top: 25px;
+    padding-bottom: 25px;
+   /* margin-left: 20px; */
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    /* margin-bottom: 20px; */
+    /* justify-content: center; */
+    margin-left: 25px;
+}
+.isSmallPoster{
+    width: 150px;
+    margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.rowPosts::-webkit-scrollbar{
+    display: none;
+  }
+
+
+.youtubeContainer{
+    text-align: center;
+}
+.closeBtn{
+    color: red  ;
+    cursor: pointer;
+}
+.youtubeScreen{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

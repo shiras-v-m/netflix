@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.leftSection{
+    display: flex;
+    align-items: center;
+}
+.neflixLogo{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+.leftSection a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.rightSection{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rightSection a{
+
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.searchIcon{
+    color: white;
+    cursor: pointer;
+}
+.notificationIcon{
+    color: white;
+    cursor: pointer;
+}
+.netlfixAvatar{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.hideItem{
+    display: none;
+}
+
+
+@media(max-width:900px){
+    .leftSection a{
+        display: none;
+    }
+    .rightSection a{
+        display: none;}
+}
